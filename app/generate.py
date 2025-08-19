@@ -25,5 +25,3 @@ def generate_qr(text:str, filename="qrcode.png"):
     img = qr.make_image(fill_color="black", back_color="white")
     img.save(filename)
     print(f"QR code généré et sauvegardé dans {filename}")
-    
-
